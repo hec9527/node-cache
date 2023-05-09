@@ -1,0 +1,27 @@
+{
+    "name": "cache",
+    "version": "1.0.0",
+    "description": "通过nodejs学习http缓存相关知识",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hec9527/node-cache.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hec9527/node-cache/issues"
+    },
+    "homepage": "https://github.com/hec9527/node-cache#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "dependencies": {
+        "koa": "^2.14.2",
+        "mime": "^3.0.0"
+    }
+}
